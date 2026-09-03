@@ -3,7 +3,7 @@ point_ebulition = 100
 temperature_actuelle = 23
 
 
-# CapWords ou UpperCamelCase pour les classe
+# CapWords ou UpperCamelCase pour les classes
 class MaSuperDuperClasse:
     pass
 
