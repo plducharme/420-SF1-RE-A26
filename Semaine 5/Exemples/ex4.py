@@ -1,6 +1,6 @@
 phrase = input("Entrez une phrase: ")
 
-lettre = input("Veuillez entrer la lettre: ")
+lettre = input("Veuillez entrer la lettre à compter: ")
 
 nombre_occurences = phrase.count(lettre)
 

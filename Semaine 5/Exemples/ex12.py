@@ -10,3 +10,7 @@ moyenne("Jessica", 60, 85, 95, 89, 90)
 # Appel avec arguments nommés
 moyenne(pratique_1=98, examen_1=85, pratique_2=68, examen_2=86, exercices=90, nom="Alice")
 
+print("bonjour", "salut", sep="->")
+print("bonjour", "salut")
+
+

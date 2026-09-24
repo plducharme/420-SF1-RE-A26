@@ -1,4 +1,3 @@
-from pandas.core.dtypes.inference import is_number
 
 
 def cube(nb):
