@@ -6,6 +6,7 @@ def moyenne(somme_notes, nombre_etudiants):
     assert somme_notes >= 0, "La somme des notes doit être 0 ou positive"
     return somme_notes / nombre_etudiants
 
+
 # Ceci va enlever le détail des appels et conserver seulement les "Error"
 sys.tracebacklimit = 0
 moyenne(250, 16)
