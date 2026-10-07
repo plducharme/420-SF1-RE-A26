@@ -1,6 +1,7 @@
 import math as m
 import random as rnd
 
+# On préfixe maintenant en utilisant les alias
 rnd.seed(42)
 nombre = rnd.random()
 

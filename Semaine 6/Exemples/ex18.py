@@ -2,7 +2,7 @@ import ex17
 
 # afficher contenu ex17
 print(dir(ex17))
-print(help(ex17))
+help(ex17)
 
 nom_produit = input("Donnez le nom du produit acheté: ")
 quantite = int(input("Quantité: "))

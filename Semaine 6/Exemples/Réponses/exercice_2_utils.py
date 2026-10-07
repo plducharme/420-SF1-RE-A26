@@ -6,5 +6,11 @@ def renverse_chaine(chaine: str):
     return chaine_inversee
 
 
+def renverse_chaine_v2(chaine: str):
+    return chaine[::-1]
+
+
 if __name__ == "__main__":
-    print(renverse_chaine("Allo les amis!"))
+    # Tests pour s'assurer que cela fonctionne
+    assert renverse_chaine("Allo les amis!") == "!sima sel ollA"
+    print(renverse_chaine_v2("Allo les amis!"))

@@ -7,6 +7,7 @@ def moyenne(somme_notes, nombre_etudiants):
     return somme_notes / nombre_etudiants
 
 
+# Ceci va enlever le détail des appels et conserver seulement les "Error"
 sys.tracebacklimit = 0
 moyenne(250, 16)
 moyenne(250, 0)
