@@ -1,0 +1,6 @@
+a1 = "Francais:quatorze:14"
+a2 = "Russe:TCHETJRE:4"
+a3 = "Grec:DUO:2"
+a4 = "francais:Mille:1000"
+a5 = "sanskrit:navati:90"
+a6 = "francais:Deux cent seize mille:216000"
