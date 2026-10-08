@@ -25,10 +25,10 @@ print()
 
 for i in range(10):
     # pas obligé d'utilisé la variable i déclarée
-    print("Exécuté")
+    print("Exécuté", end=" ")
 
 # La façon la plus élégante de faire une boucle for qui n'utilise pas la variable
 for _ in range(10):
-    print("Exécuté!")
+    print("Exécuté!", end=" ")
 
     

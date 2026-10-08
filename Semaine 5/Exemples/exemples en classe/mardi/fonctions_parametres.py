@@ -1,5 +1,6 @@
 import math
 
+
 # Une fonction peut avoir 0 ou plusieurs paramètres
 # ex sans paramètre
 def bonjour():
@@ -12,7 +13,7 @@ for i in range(2):
 
 # exemple avec 2 paramètres
 def pythagore(base, hauteur):
-    hypothenuse = math.sqrt(base**2 + hauteur**2)
+    hypothenuse = math.sqrt(base ** 2 + hauteur ** 2)
     return hypothenuse
 
 
@@ -32,4 +33,3 @@ def somme(*args):
 
 
 print(somme(4, 5, 5, 8, 9, 12))
-
