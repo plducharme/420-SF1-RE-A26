@@ -27,5 +27,6 @@ print(liste_decroissante)
 # .sort(reverse=True) est aussi possible
 liste_nombres_3 = [5, 96, -1, 42, 45, 77]
 liste_nombres_3.sort(reverse=True)
+print(liste_nombres_3)
 
 

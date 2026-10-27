@@ -1,3 +1,7 @@
+# On a vu remove() et pop(), mais il existe d'autres fonctions sur les listes
+# https://docs.python.org/fr/3.14/builtins/stdtypes.html#lists
+# https://docs.python.org/fr/3.14/builtins/stdtypes.html#typesseq-common
+# https://docs.python.org/fr/3.14/builtins/stdtypes.html#typesseq-mutable
 lettres = ["a", "b", "c", "b"]
 
 # index() retourne l'index de la première occurrence de l'élément passé en paramètre; déclanche une erreur
@@ -7,7 +11,7 @@ print(lettres.index("b"))
 # count() retourne le nombre d'occurrences de l'élément dans la liste, déclanche une erreur si non existant
 print(lettres.count("b"))
 
-# teste pour la présence
+# "in" teste l'appartenance à une séquence
 if "z" in lettres:
     print(lettres.index("z"))
 else:

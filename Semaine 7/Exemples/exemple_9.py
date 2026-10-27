@@ -20,9 +20,10 @@ try:
 except ValueError as ve:
     print("Erreur", ve)
 
-# Il y avait un deuxième
+# Il y avait un deuxième "a"
 voyelles_2.remove("a")
 print(voyelles_2)
 # Mais il n'y en avait pas trois
 voyelles_2.remove("a")
+# La prochaine ligne ne sera pas exécuté, car la ligne précédente génère une erreur fatale non gérée
 print("Fin du programme")

@@ -17,7 +17,7 @@ phrase_2 = "AAA".join(liste_mots)
 print(phrase_2)
 
 # Extra: La liste doit contenir des str pour fonctionner
-# Si on a des nombre, il faut les convertir
+# Si on a des nombres, il faut les convertir
 liste_nombres = [42, 45, 12, 7, 98]
 liste_nbr_str = "->".join([str(nbr) for nbr in liste_nombres])
 print(liste_nbr_str)

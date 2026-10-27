@@ -14,5 +14,5 @@ liste_entiers = list(range(10))
 print(liste_entiers)
 
 for index, entier in enumerate(liste_entiers[::2]):
-    print(f"index: {index} entier: {entier}")
+    print(f"index de l'itération: {index} entier: {entier}")
 

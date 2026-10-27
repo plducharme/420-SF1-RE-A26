@@ -20,3 +20,4 @@ liste_vide = list()
 # même chose que faire
 liste_vide_2 = []
 print(liste_vide, liste_vide_2, sep=" == ")
+print(liste_vide == liste_vide_2)
