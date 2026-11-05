@@ -15,6 +15,5 @@ with open("births-and-deaths-projected-to-2100.csv", "r") as fichier_csv:
 
         # calculer le nombre total de naissances au Canada de 1950 à 2000
 
-
     # faire un graphique des naissances au Canada de 1950 à 1975
 
