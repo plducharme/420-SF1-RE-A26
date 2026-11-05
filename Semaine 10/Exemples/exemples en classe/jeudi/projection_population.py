@@ -13,7 +13,8 @@ with open("births-and-deaths-projected-to-2100.csv", "r") as fichier_csv:
         # calculer ler nombre de naissances en 1980
         # s'assurer que la valeur ne soit pas un str vide avant de la convertir en int
 
-        # calculer le nombre total de naissances au Canada entre 1950 et 2000
+        # calculer le nombre total de naissances au Canada de 1950 à 2000
 
 
+    # faire un graphique des naissances au Canada de 1950 à 1975
 
