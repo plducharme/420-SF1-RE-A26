@@ -48,7 +48,7 @@ print('Erménégide' in mon_dict)
 mon_dict.clear()
 print(mon_dict)
 
-# Déclaration d'un dictionnaire en compréhension
+# Déclaration d'un dictionnaire en compréhension (extra)
 coords_y_carre = {x: x**2 for x in (4, 8, 9)}
 
 # Déclaration d'un dictionnaire via le constructeur
