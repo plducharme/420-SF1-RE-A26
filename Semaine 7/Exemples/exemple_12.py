@@ -7,7 +7,7 @@ print(nombres)
 nombres_2 = [666, -42]
 nombres.append(nombres_2)
 print(nombres)
-nombres.append("Teste")
+nombres.append("Test")
 print(nombres)
 
 # On peut ajouter les éléments d'une liste au bout de la liste en utilisant extend(liste)

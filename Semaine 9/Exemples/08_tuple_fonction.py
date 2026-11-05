@@ -4,7 +4,7 @@ def somme_et_produit(x, y):
     return (x + y), (x * y)
 
 
-# le tuple retourner ici est assigné à un tuple
+# le tuple retourné ici est assigné à un tuple
 tup = somme_et_produit(2, 3)
 print(f"tup: {tup}")
 # Le tuple retourné est "unpacked" dans les deux variables

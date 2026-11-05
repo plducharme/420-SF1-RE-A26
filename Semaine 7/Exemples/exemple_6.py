@@ -14,4 +14,9 @@ fruits = [["raisin", "papaye", "pomme"], "pamplemousse", "ananas", "citron", "po
 for mes_preferes in fruits:
     print(mes_preferes, end=" ")
 
+print()
+# Parcourir chaque 2ième élément de la liste de fruits
+for f in fruits[::2]:
+    print(f, end=" ")
+
 
