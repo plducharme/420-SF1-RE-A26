@@ -1,5 +1,5 @@
 import math
-# Le unpacking (dépaquetage) de python utilise les tuples à l'interne
+# Le unpacking (dépaquetage ou déballage) de python utilise les tuples à l'interne
 val1, val2 = 2, 3
 print(val1, val2)
 # est équivalent à:

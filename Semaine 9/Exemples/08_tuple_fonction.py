@@ -1,7 +1,7 @@
 # Pour l'explication complète, voir tuple_extras.py
 
 def somme_et_produit(x, y):
-    return (x + y), (x * y)
+    return x + y, x * y
 
 
 # le tuple retourné ici est assigné à un tuple
