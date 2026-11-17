@@ -18,3 +18,9 @@ def afficher_arguments(**kwargs):
 
 
 afficher_arguments(nom='Ducharme', prenom='Pier Luc', grandeur='6 pieds')
+
+# Le unpacking permet aussi de:
+boule1, boule2, boule3 = ("b1", "b2", "b3")
+print(boule1)
+print(boule2)
+print(boule3)
