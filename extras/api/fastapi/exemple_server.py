@@ -37,7 +37,7 @@ async def supprimer_etudiant(no_da: int):
 async def modifier_etudiant(no_da: int, etudiant: Etudiant):
     for item in etudiants:
         if item.no_da == no_da:
-            item.nom = etudiant.nom
+            item.cle = etudiant.nom
             item.prenom = etudiant.prenom
             item.no_da = etudiant.no_da
             return etudiant
