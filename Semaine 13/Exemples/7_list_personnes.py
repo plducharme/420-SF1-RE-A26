@@ -10,7 +10,7 @@ class Personne:
         self.adresse = "LAVAL"
 
     # Méthodes
-    def veillir(self):
+    def vieillir(self):
         self.age += 1
 
     def info(self):
