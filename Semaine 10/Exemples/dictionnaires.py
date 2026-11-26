@@ -17,6 +17,10 @@ print(mon_dict["Lina"])
 # On peut aussi utiliser la fonction get(cle) pour retourner la valeur
 print(f"get('Lina'):  {mon_dict.get("Lina")}")
 
+# get(cle, default) a un argument optionnel qui permet de retourner une valeur par défaut au lieu de générer un
+# KeyError si la clé n'existe pas
+print(f"get('Max', 'valeur par défaut'): {mon_dict.get('Max', 'valeur par défaut')}")
+
 # Retirer une paire clé-valeur
 # on utilise la fonction del sur la clé du dictionnaire
 del mon_dict['Arthur']
