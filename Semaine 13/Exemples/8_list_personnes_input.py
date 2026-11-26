@@ -35,3 +35,6 @@ for i in range(nb):
 
     # Si __repr__ est implémenté, on peut faire ceci directement :
     print(les_personnes[i])
+
+# Quand __repr__ est implémenté, imprimé la liste, va imprimer aussi les objets contenus
+print(les_personnes)

@@ -37,3 +37,9 @@ mireille.info()  #
 # objet p2
 salim.vieillir()
 salim.info()  #
+
+# Adulte
+joseph = Personne("Latreille", "Joseph", 21, 1.83)
+joseph.adresse = "St-Hyacinthe"
+joseph.vieillir()
+joseph.info()

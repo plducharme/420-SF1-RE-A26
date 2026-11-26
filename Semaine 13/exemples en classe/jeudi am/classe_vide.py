@@ -1,0 +1,5 @@
+
+class MaClasse:
+    pass
+
+

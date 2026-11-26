@@ -29,4 +29,8 @@ les_personnes.append(Personne("Mireille", "Gagné", 3, 1.1))
 les_personnes.append(p1)
 # afficher les personnes dans une boucle
 for i in range(len(les_personnes)):
-    print(les_personnes[i])
+    print(les_personnes[i].to_string())
+
+# Autre façon de parcourir
+for p in les_personnes:
+    print(p.to_string())

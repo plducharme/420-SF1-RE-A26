@@ -1,7 +1,7 @@
 # Classe Personne
 class Personne:
     # Constructeur tous les objets personnes habitent LAVAL
-    # propritétés: nom, prenom, age, adresse
+    # propriétés: nom, prenom, age, adresse
     def __init__(self, nom, prenom, age, taille):
         self.nom = nom
         self.prenom = prenom
